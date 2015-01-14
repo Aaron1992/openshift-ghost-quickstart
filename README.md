@@ -85,7 +85,7 @@ In most cases all you need to do is run `npm update` in root directory. There ar
 
 1. RedHat OpenShift runs on Linux x64 platform. If you are running `npm update` on any other plaform (e.g. Linux x32 or Mac) you will need to make sure you have `node_modules/ghost/node_modules/sqlite3/lib/binding/node-v11-linux-x64/node_sqlite3.node` in place.
 
-2. If you are using default theme Casper you will need to update its code manually with following command: `cp -r node_modules/ghost/content/themes/casper/ content/themes/casper/`. Note: this will override all custom modifications that you did in the theme.
+2. If you are using default theme Casper you will need to update its code manually with following command: `cp -r node_modules/ghost/content/themes/casper/ content/themes`. Note: this will override all custom modifications that you did in the theme.
 
 More information can be found on the [Ghost Support Site](http://support.ghost.org/how-to-upgrade/)
 
